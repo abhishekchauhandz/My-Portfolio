@@ -8,9 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
     downloadButton.addEventListener('click', () => {
         const downloadLink = document.createElement('a');
         downloadLink.href = cvUrl;
-        downloadLink.download = 'AbhishekChauhan_CV.pdf';hv
+        downloadLink.download = 'AbhishekChauhan_CV.pdf';
         document.body.appendChild(downloadLink);
         downloadLink.click();
+        console.log("downloaded")
         document.body.removeChild(downloadLink);
     });
 
