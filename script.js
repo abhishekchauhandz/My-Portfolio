@@ -3,12 +3,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const cvArrowLink = document.getElementById('cvArrowLink');
 
-    const cvUrl = 'Curriculum Vitae.pdf'; 
+    const cvUrl = 'Abhishek_Chauhan_Frontend_developer.pdf'; 
 
     downloadButton.addEventListener('click', () => {
         const downloadLink = document.createElement('a');
         downloadLink.href = cvUrl;
-        downloadLink.download = 'AbhishekChauhan_CV.pdf';
+        downloadLink.download = 'AbhishekChauhan_CV.pdf';hv
         document.body.appendChild(downloadLink);
         downloadLink.click();
         document.body.removeChild(downloadLink);
